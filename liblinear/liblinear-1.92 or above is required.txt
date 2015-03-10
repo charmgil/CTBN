@@ -1,0 +1,1 @@
+This implementation of CTBN [Batal, Hong, Hauskrecht 2013] requires liblinear (Machine Learning Group at National Taiwan University; http://www.csie.ntu.edu.tw/~cjlin/liblinear/) 1.92 or above. Please place a copy of the library in this directory.
