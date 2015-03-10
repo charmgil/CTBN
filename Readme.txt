@@ -1,8 +1,18 @@
-This package provides an implementation of Conditional Tree-structured Bayesian Networks [Batal, Hong, Hauskrecht 2013] that builds structured prediction models for multi-label classification.
+Introduction:
+
+This package provides a Matlab implementation of Conditional Tree-structured Bayesian Networks [Batal, Hong, Hauskrecht 2013] that builds structured prediction models for multi-label classification.
 
 To train a model, use CTBN/learn_output_tree_sw.m. To use a trained model for prediction, use CTBN/MAP_prediction_sw.m.
 
-demo.m contains a demonstration script that learns and uses the CTBN models on the emotions dataset.
+demo.m contains a demonstration script that learns and uses the CTBN models on the emotions dataset [Trohidis et al. 2008].
+
+
+----
+
+Disclaimer:
+
+This code package can be used for academic purposes only. We do not guarantee that the code is correct, current or complete, and do not provide any technical support. Accordingly, the users are advised to confirm the correctness of the package before making any decisions with it.
+
 
 ----
 
@@ -10,4 +20,5 @@ Reference:
 
 [Batal, Hong, Hauskrecht 2013] I. Batal, C. Hong, M. Hauskrecht. An efficient probabilistic framework for multi-dimensional classification. CIKM 2013, Burlingame, CA, USA. October 2013.
 
+[Trohidis et al. 2008] K. Trohidis, G. Tsoumakas, G. Kalliris, I. Vlahavas. "Multilabel Classification of Music into Emotions". Proc. 2008 International Conference on Music Information Retrieval (ISMIR 2008), Philadelphia, PA, USA, 2008.
 

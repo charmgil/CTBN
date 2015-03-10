@@ -3,7 +3,7 @@ clear;clc;
 % path
 addpath('auxiliary');
 addpath('CTBN');
-addpath('liblinear-1.92/matlab');
+addpath('liblinear/matlab'); %% !! Liblinear 1.92 or above is required !!
 
 % init
 global LR_implementation;
@@ -34,16 +34,14 @@ for r = 1:CVO.NumTestSets
     X_ts = X(CVO.test(r), :);
     Y_ts = Y(CVO.test(r), :);
     
+    
     % CTBN [Batal, Hong, Hauskrecht 2013]
     
     % train
-    s1 = clock;
     CTBN_model = learn_output_tree_sw(X_tr, Y_tr);
     
     % test
-    s2 = clock;
     [ Y_pred_CTBN{r}, Y_log_prob_CTBN{r}] = MAP_prediction_sw(CTBN_model, X_ts, Y_ts);
-    t = clock;
     toc;
     
     % bookkeeping
