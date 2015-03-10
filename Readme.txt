@@ -18,7 +18,7 @@ This code package can be used for academic purposes only. We do not guarantee th
 
 Reference:
 
-[Batal, Hong, Hauskrecht 2013] I. Batal, C. Hong, M. Hauskrecht. An efficient probabilistic framework for multi-dimensional classification. CIKM 2013, Burlingame, CA, USA. October 2013.
+[Batal, Hong, Hauskrecht 2013] I. Batal, C. Hong, M. Hauskrecht. An efficient probabilistic framework for multi-dimensional classification. ACM International Conference on Information and Knowledge Management (CIKM 2013), Burlingame, CA, USA. October 2013.
 
 [Trohidis et al. 2008] K. Trohidis, G. Tsoumakas, G. Kalliris, I. Vlahavas. "Multilabel Classification of Music into Emotions". Proc. 2008 International Conference on Music Information Retrieval (ISMIR 2008), Philadelphia, PA, USA, 2008.
 
