@@ -20,5 +20,7 @@ Reference:
 
 [Batal, Hong, Hauskrecht 2013] I. Batal, C. Hong, M. Hauskrecht. An efficient probabilistic framework for multi-dimensional classification. ACM International Conference on Information and Knowledge Management (CIKM 2013), Burlingame, CA, USA. October 2013.
 
+[Fan et al. 2008] R. Fan, K. Chang, C. Hsieh, X. Wang, and C. Lin. LIBLINEAR: A Library for Large Linear Classification, Journal of Machine Learning Research 9(2008), 1871-1874. Software available at http://www.csie.ntu.edu.tw/~cjlin/liblinear
+
 [Trohidis et al. 2008] K. Trohidis, G. Tsoumakas, G. Kalliris, I. Vlahavas. "Multilabel Classification of Music into Emotions". Proc. 2008 International Conference on Music Information Retrieval (ISMIR 2008), Philadelphia, PA, USA, 2008.
 
